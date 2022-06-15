@@ -1,9 +1,8 @@
 import 'dart:async';
-
-import 'package:animation/views/block_money.dart';
-import 'package:animation/views/botton.dart';
-import 'package:animation/views/mario.dart';
-import 'package:animation/views/mushroom.dart';
+import 'package:animation/views/mario_game/block_money.dart';
+import 'package:animation/views/mario_game/botton.dart';
+import 'package:animation/views/mario_game/mario.dart';
+import 'package:animation/views/mario_game/mushroom.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -16,7 +15,6 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   AnimationController? animationController;
-  bool moneyBool = false;
   static double marioX = 0;
   static double marioY = 1;
   double marioSize = 80;
@@ -36,6 +34,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   static double blockY = 0.38;
   double moneyX = blockX;
   double moneyY = 0.38;
+  bool moneyBool = false;
   int money = 0;
 
   @override

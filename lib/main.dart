@@ -1,4 +1,5 @@
-import 'package:animation/views/home.dart';
+import 'package:animation/views/mario_game/home.dart';
+import 'package:animation/views/mario_with_animation/mario_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: MarioWithAnimationView(),
     );
   }
 }
