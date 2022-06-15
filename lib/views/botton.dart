@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 class MyButtonMario extends StatelessWidget {
-  Widget? child;
+  final IconData? icon;
   dynamic function;
   static bool holdingButton = false;
 
-  MyButtonMario({Key? key, this.child, this.function}) : super(key: key);
+  MyButtonMario({Key? key, this.icon, this.function}) : super(key: key);
 
   bool userIsHoldingButton() {
     return holdingButton;
@@ -27,7 +27,7 @@ class MyButtonMario extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.all(10),
           color: Colors.brown[300],
-          child: child,
+          child: Icon(icon, color: Colors.white),
         ),
       ),
     );
