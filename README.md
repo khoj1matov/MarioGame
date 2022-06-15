@@ -1,1 +1,1 @@
-<img src="./screenshots/animation_mari.png" alt="Play Game" width="50%"> <img src="./screenshots/mario_haming.png" alt="Game Over" width="50%">
+<img src="./screenshots/animation_mario.png" alt="Animation" width="45%"> <img src="./screenshots/mario_gaming.png" alt="Mario_Gaming" width="45%">
